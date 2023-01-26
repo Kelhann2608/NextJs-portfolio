@@ -84,7 +84,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="py-1 text-3xl dark:text-white">Mes services</h3>
+            <h3 className="py-1 text-3xl dark:text-white">Mes services :</h3>
             <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">Je propose mes services pour la création de sites web, tels que:  <br /><span className="text-lg font-semibold text-or dark:text-teal-400">Portfolio, site d'association, blogs, site vitrine</span> .</p>
           </div>
         </section>
