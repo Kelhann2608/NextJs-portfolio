@@ -89,7 +89,7 @@ export default function Home() {
                 layout="responsive"
                 src={BCT}
               />
-              <a className="absolute text-white border-2 border-black rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 bottom-4 left-60" href="https://marie5060.github.io/Blind-Crash-Test/">Lien du site</a>
+              {/* <a className="absolute text-white border-2 border-black rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 bottom-4 left-60" href="https://marie5060.github.io/Blind-Crash-Test/">Lien du site</a> */}
 
             </div>
             <div className="flex-1 basis-1/3">
