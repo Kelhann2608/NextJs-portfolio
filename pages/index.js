@@ -25,11 +25,6 @@ export default function Home() {
             <h1 className="text-3xl font-semibold font-DancingS">BM</h1>
             <ul className="flex items-center ">
               <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className="text-2xl cursor-pointer" />
-              </li>
-              <li>
                 <a
                   className="px-4 py-2 ml-8 text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-500"
                   href="#competences"
@@ -44,6 +39,11 @@ export default function Home() {
                 >
                   A propos
                 </a>
+              </li>
+              <li>
+                <BsFillMoonStarsFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className="text-2xl cursor-pointer" />
               </li>
             </ul>
           </nav>
