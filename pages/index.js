@@ -32,6 +32,14 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 ml-8 text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-500"
+                  href="#competences"
+                >
+                  Compétences
+                </a>
+              </li>
+              <li>
+                <a
+                  className="px-4 py-2 ml-8 text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-500"
                   href="#resume"
                 >
                   A propos
@@ -56,7 +64,7 @@ export default function Home() {
             <Image src={Avatar} layout="fill" objectFit="cover" />
           </div>
           <div>
-            <h3 id="resume" className="py-1 text-3xl dark:text-white text-center mb-2 mt-2">A propos de moi :</h3>
+            <h3 id="resume" className="py-1 mt-2 mb-2 text-3xl text-center dark:text-white">A propos de moi :</h3>
             <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl">
               Fan de technologies depuis mon plus jeune âge, j'avais pour habitude
               de démonter différents objets pour comprendre leur fonctionnement, à
@@ -65,6 +73,12 @@ export default function Home() {
               diriger vers le monde du code et de la programmation. J'ai donc pris
               la décision de me lancer dans une formation de Développeur Web auprès
               de la Wild Code School, que je viens de terminer.Je suis donc à la recherche d'une opportunité pour mettre en pratique mes compétences.
+            </p>
+          </div>
+          <div>
+            <h3 id="competences" className="py-1 mt-2 mb-2 text-3xl text-center dark:text-white">Compétences :</h3>
+            <p className="max-w-xl py-5 mx-auto leading-8 text-or text-md dark:text-teal-400 md:text-xl">
+              HTML, CSS, JavaScript, React Js, Sass, Node Js, Astro Js, tailwind
             </p>
           </div>
         </section>
