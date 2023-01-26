@@ -1,15 +1,13 @@
 import Head from "next/head";
 import { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
 import Avatar from "../public/Avatar.png";
 import BCT from "../public/BCT.jpg";
 import LLM from "../public/LLM.jpg";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import TODO from "../public/Todo-app.jpg";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -34,9 +32,9 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 ml-8 text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-500"
-                  href="#"
+                  href="#resume"
                 >
-                  Resume
+                  A propos
                 </a>
               </li>
             </ul>
@@ -46,17 +44,28 @@ export default function Home() {
               Bernardin Milhet
             </h2>
             <h3 className="py-2 text-2xl dark:text-white md:text-3xl">Développeur Web et Web Mobile.</h3>
-            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl">
-              Je suis un jeune Développeur Freelance, passionné par la création
-              de site et application Web.
-            </p>
+
           </div>
           <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-300">
             <a href="mailto:bernardin2608@gmail.com" aria-label="adresse email"><AiFillMail /></a>
             <a href="https://www.linkedin.com/in/bernardin-milhet-a590b1149/" aria-label="lien linkedin"><AiFillLinkedin /></a>
+            <a href="https://github.com/Kelhann2608/" aria-label="lien linkedin"><AiFillGithub /></a>
           </div>
+
           <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 w-80 h-80 md:h-96 md:w-96">
             <Image src={Avatar} layout="fill" objectFit="cover" />
+          </div>
+          <div>
+            <h3 id="resume" className="py-1 text-3xl dark:text-white text-center mb-2 mt-2">A propos de moi :</h3>
+            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl">
+              Fan de technologies depuis mon plus jeune âge, j'avais pour habitude
+              de démonter différents objets pour comprendre leur fonctionnement, à
+              l'âge adulte, j'ai décidé de faire de même avec des ordinateurs. Puis,
+              j'ai voulu comprendre leur langage, c'est ce qui m'a décidé à me
+              diriger vers le monde du code et de la programmation. J'ai donc pris
+              la décision de me lancer dans une formation de Développeur Web auprès
+              de la Wild Code School, que je viens de terminer.Je suis donc à la recherche d'une opportunité pour mettre en pratique mes compétences.
+            </p>
           </div>
         </section>
         <section>
@@ -82,7 +91,7 @@ export default function Home() {
                 layout="responsive"
                 src={BCT}
               />
-              <a className="absolute text-white border-2 border-black rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 bottom-4 left-60" href="https://marie5060.github.io/Blind-Crash-Test/">Lien du site</a>
+              {/* <a className="absolute text-white border-2 border-black rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 bottom-4 left-60" href="https://marie5060.github.io/Blind-Crash-Test/">Lien du site</a> */}
 
             </div>
             <div className="flex-1 basis-1/3">
@@ -100,10 +109,10 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web3}
+                src={TODO}
               />
             </div>
-            <div className="flex-1 basis-1/3">
+            {/* <div className="flex-1 basis-1/3">
               <Image
                 className="object-cover rounded-lg"
                 width={"100%"}
@@ -111,7 +120,7 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
-            </div>
+            </div> */}
 
 
           </div>
