@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
 import Avatar from "../public/Avatar.png";
 import BCT from "../public/BCT.jpg";
@@ -49,7 +49,9 @@ export default function Home() {
           <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-300">
             <a href="mailto:bernardin2608@gmail.com" aria-label="adresse email"><AiFillMail /></a>
             <a href="https://www.linkedin.com/in/bernardin-milhet-a590b1149/" aria-label="lien linkedin"><AiFillLinkedin /></a>
+            <a href="https://github.com/Kelhann2608/" aria-label="lien linkedin"><AiFillGithub /></a>
           </div>
+
           <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 w-80 h-80 md:h-96 md:w-96">
             <Image src={Avatar} layout="fill" objectFit="cover" />
           </div>
