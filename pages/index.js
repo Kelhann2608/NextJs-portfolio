@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div>
             <h3 id="resume" className="py-1 mt-2 mb-2 text-3xl text-center dark:text-white">A propos de moi :</h3>
-            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl">
+            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-xl dark:text-gray-200 md:text-2xl">
               Fan de technologies depuis mon plus jeune âge, j'avais pour habitude
               de démonter différents objets pour comprendre leur fonctionnement, à
               l'âge adulte, j'ai décidé de faire de même avec des ordinateurs. Puis,
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
           <div>
             <h3 id="competences" className="py-1 mt-2 mb-2 text-3xl text-center dark:text-white">Compétences :</h3>
-            <p className="max-w-xl py-5 mx-auto leading-8 text-or text-md dark:text-teal-400 md:text-xl">
+            <p className="max-w-xl py-5 mx-auto leading-8 text-or text-xl dark:text-teal-400 md:text-2xl">
               HTML, CSS, JavaScript, React Js, Sass, Node Js, Astro Js, tailwind
             </p>
           </div>
@@ -85,13 +85,13 @@ export default function Home() {
         <section>
           <div>
             <h3 className="py-1 text-3xl dark:text-white">Mes services :</h3>
-            <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">Je propose mes services pour la création de sites web, tels que:  <br /><span className="text-lg font-semibold text-or dark:text-teal-400">Portfolio, site d'association, blogs, site vitrine</span> .</p>
+            <p className="py-2 leading-8 text-gray-800 text-xl dark:text-gray-200 md:text-2xl">Je propose mes services pour la création de sites web, tels que:  <br /><span className="text-xl font-semibold text-or dark:text-teal-400 md:text-2xl">Portfolio, site d'association, blogs, site vitrine</span> .</p>
           </div>
         </section>
         <section className="py-10">
           <div>
             <h3 className="py-1 text-3xl dark:text-white ">Projets</h3>
-            <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">
+            <p className="py-2 leading-8 text-gray-800 text-xl dark:text-gray-200 md:text-2xl">
               Vous pourrez trouver ci-dessous quelques uns des projets auxquels j'ai participé ou que j'ai conçu moi-même.
             </p>
 
